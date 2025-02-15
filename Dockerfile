@@ -11,7 +11,7 @@ COPY . .
 RUN npm run build
 
 # /app/build is the production build
-
+EXPOSE 8080
 FROM nginx  
 
 
